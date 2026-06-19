@@ -1,4 +1,4 @@
-# End-to-End Flight Analytics & Custom ML Pipeline
+# Flight Delay Analytics & ML Pipeline
 **Environment:** Ubuntu Cluster (`sky@hadoop-master`) | **Hadoop Version:** 3.5.0 (Active on Port 9000)
 
 ## 📋 Project Overview
@@ -35,6 +35,5 @@ A supervised predictive pipeline engineered completely from scratch without exte
 
 * **`MapReduce-Java/`** - Contains the source code for the Java Mappers, Reducers, and Cluster Drivers.
 * **`Pipeline-Scripts/`** - Contains the pure Python big data simulation engines and ML models (`spark_analytics.py` and `flight_ml_prediction.py`).
-* **`.gitkeep`** - Internal placeholder files maintaining directory infrastructure.
 
-*(Note: In compliance with big data storage standards, the multi-gigabyte raw flight datasets and output part-files remain securely hosted within the local HDFS cluster cluster environment and are not pushed to this repository).*
+*(Note: In compliance with big data storage standards, the multi-gigabyte raw flight datasets and output part-files remain securely hosted within the local HDFS cluster environment and are not pushed to this repository).*
